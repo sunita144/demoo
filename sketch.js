@@ -14,7 +14,7 @@ function setup(){
     var canvas = createCanvas(1200,400);
     engine = Engine.create();
     world = engine.world;
-
+platform1= new Ground(150,300,300,170);
     
     ground = new Ground(600,height,1200,20)
 
@@ -50,6 +50,7 @@ function draw(){
     log1.display();
 
     box3.display();
+platform1.display();
     box4.display();
     pig3.display();
     log3.display();
